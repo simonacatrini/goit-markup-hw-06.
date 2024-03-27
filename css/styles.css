@@ -54,7 +54,6 @@ ul {
     gap: 16px;
 }
 
-
 .icon-list .icon {
     display: flex;
     width: 40px;
@@ -246,7 +245,7 @@ ul {
     background-size: cover;
 }
 
-.herosection {
+.hero-section-ul {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -289,7 +288,7 @@ ul {
     cursor: pointer;
 }
 
-.ehidden {
+.is-hidden {
     visibility: hidden;
 }
 
@@ -335,36 +334,36 @@ ul {
     border-color: rgba(0, 0, 0, 0.1);
 }
 
-.og-class::before {
+.o-g-class::before {
     content: url("../icons/antenna.svg");
     display: block;
     color: #000000;
     outline: none;
 }
 
-.og-class1::before {
+.o-g-class1::before {
     content: url("../icons/clock.svg");
     display: block;
 }
 
-.og-class2::before {
+.o-g-class2::before {
     content: url("../icons/diligence.svg");
     display: block;
 }
 
-.og-class3::before {
+.o-g-class3::before {
     content: url("../icons/technologies.svg");
     display: block;
 }
 
-.our-goals-class {
+.our-goals-clas {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
 }
 
-.ogdescription {
+.o-g-description-clas {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -377,7 +376,7 @@ ul {
     text-align: center;
 }
 
-.ci-class {
+.c-i-clasa {
     display: flex;
     justify-content: space-between;
 }
