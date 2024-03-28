@@ -24,109 +24,109 @@ ul {
     align-items: center;
     box-sizing: border-box;
 }
-
-.footer {
-    background-color: #2e2f42;
-}
-
-.footer .container {
-    justify-content: left;
-    border-top: 1px solid #e7e9fc;
-    display: flex;
-}
-
-.footer-container {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.social-media {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #f4f4fd;
-    margin-top: 100px;
-    margin-left: 120px;
-}
-
-.social-media-subscribe {
-    margin-top: 150px;
-    margin-left: 120px;
-    width: 165px;
-    height: 40px;
-}
-
-.subscribe-buton {
-    width: 165px;
-    height: 40px;
-    background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-    padding: 16px, 32px, 16px, 32px;
-    border-radius: 4px;
-}
-
-.subscribe-buton:after {
-    content: url("../icons/icon-send.svg");
-}
-
-.frame:after {
-    content: url("../icons/Frame.svg");
-}
-
-.subscribe-clas {
-    display: flex;
-    flex-direction: column;
-}
-
-.input-class-subscribe {
-    display: flex;
-}
-
-.subscribe-buton {
-    justify-content: right;
-}
-
-.input-class-subscribe {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-.icon-list {
-    display: flex;
-    gap: 16px;
-}
-
-.icon-list .icon {
-    display: flex;
-    width: 40px;
-    height: 40px;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.icon-list .icon:focus {
-    color: white;
-}
-
-.icon-list .icon:hover {
-    color: #4d5ae5;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon svg {
-    width: 24px;
-    height: 24px;
-}
-
+.footer{
+        margin: 0 auto;
+        background-color: var(--brand-color);
+        }
+    
+        .icon-footer {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color, color var(--transition);
+            /* color: #858588; */
+            fill: #fff;
+            background: var(--primary-brand);
+        }
+    
+        .icon-footer:hover,
+        .icon-footer:active {
+            background: #31D0AA;
+            transition: transform var(--transition);
+        }
+    
+        .icons-list .icon-footer svg {
+            width: 16px;
+            height: 16px;
+        }
+    
+        .footer-flex {
+            color: #F4F4FD;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            padding: 100px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .footer-paragraph {
+            width: 264px;
+            margin-top: 16px;
+        }
+    
+        .subscribe-input {
+            border: 1px solid #fff;
+            border-radius: 4px;
+            width: 264px;
+            height: 40px;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            background-color: transparent;
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+            margin-top: 16px;
+        }
+    
+        .subscribe-input::placeholder {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 2;
+            letter-spacing: 0.04em;
+            color: #fff;
+            position: absolute;
+            left: 16px;
+            text-align: center;
+        }
+    
+        .subscribe-btn {
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            background: var(--primary-brand);
+            border-radius: 4px;
+            padding: 8px 24px;
+            width: 165px;
+            height: 40px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            text-align: center;
+            color: #fff;
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            vertical-align: top;
+            margin-left: 24px;
+            margin-top: 16px;
+            outline: none;
+        }
+    
+        .subscribe-btn:hover,
+        .subscribe-btn:active {
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            background: var(--hover-color);
+        }
+    
+        .subscribe-btn svg {
+            width: 24px;
+            height: 24px;
+            fill: #fff;
 .our-team-cards .icon-list {
     display: flex;
     gap: 24px;
