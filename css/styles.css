@@ -870,22 +870,31 @@ textarea {
  {border-color: blue;
 }
 
-#phone {border: 2px  black;
-border-radius: 5px;
-padding:8px;
-transition: border-color 0.3s}
-#phone:hover{border-color:blue}
-
-#email{border: 2px black;
+#phone{
+    border: 2px black;
     border-radius: 5px;
     padding: 8px;
-    transition: border-color 0.3s}
+    transition: border-color 0.3s
+}
 
-    #email:hover{
-        border-color:blue
-    }
-#comments{border: 2px black;
+#phone:hover {
+    border-color: blue;
+}#email {
+    border: 2px black;
     border-radius: 5px;
     padding: 8px;
-    transition: border-color 0.3s}
-    #comments:hover{border-color:blue}
+    transition: border-color 0.3s
+}
+
+#email:hover {
+    border-color: blue;
+}#comments {
+    border: 2px black;
+    border-radius: 5px;
+    padding: 8px;
+    transition: border-color 0.3s
+}
+
+#comments:hover {
+    border-color: blue;
+}
