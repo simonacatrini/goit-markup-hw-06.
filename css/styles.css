@@ -848,6 +848,7 @@ textarea {
    
         border-radius: 5px;
        
-        padding: 8px;}
+        padding: 8px;
+        transition: border-color 0.3s}
        
- 
+ #name:hover{border-color: blue;}
