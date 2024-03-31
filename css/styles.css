@@ -620,33 +620,50 @@ textarea {
     content: url("../icons/Client1.svg");
     display: block;
     margin-left: 24px;
+    
 }
-
+.client1:hover {
+        fill: blue;}
 .client2::after {
     content: url("../icons/Client2.svg");
     display: block;
+ 
+}
+.client2:hover {
+    fill: blue;
 }
 
 .client3::after {
     content: url("../icons/Client3.svg");
     display: block;
+    
+}
+.client3:hover {
+    fill: blue;
 }
 
 .client4::after {
     content: url("../icons/Client4.svg");
-    display: block;
-}
+    display: block;}
+    .client4:hover {
+            fill: blue;
+        }
+
 
 .client5::after {
     content: url("../icons/Client5.svg");
     display: block;
 }
-
+.client5:hover {
+    fill: blue;
+}
 .client6::after {
     content: url("../icons/Client6.svg");
     display: block;
 }
-
+.client6:hover {
+    fill: blue;
+}
 .footer-container {
     width: 264px;
 }
