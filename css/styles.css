@@ -622,15 +622,14 @@ textarea {
     margin-left: 24px;
     
 }
-.client1:hover {
-        fill: blue;}
+.client1:hover {filter: brightness(0.8) sepia(1) hue-rotate(180deg);}
 .client2::after {
     content: url("../icons/Client2.svg");
     display: block;
  
 }
 .client2:hover {
-    fill: blue;
+filter: brightness(0.8) sepia(1) hue-rotate(180deg);
 }
 
 .client3::after {
@@ -639,14 +638,14 @@ textarea {
     
 }
 .client3:hover {
-    fill: blue;
+filter: brightness(0.8) sepia(1) hue-rotate(180deg);
 }
 
 .client4::after {
     content: url("../icons/Client4.svg");
     display: block;}
     .client4:hover {
-            fill: blue;
+        filter: brightness(0.8) sepia(1) hue-rotate(180deg);
         }
 
 
@@ -655,14 +654,14 @@ textarea {
     display: block;
 }
 .client5:hover {
-    fill: blue;
+    filter: brightness(0.8) sepia(1) hue-rotate(180deg);
 }
 .client6::after {
     content: url("../icons/Client6.svg");
     display: block;
 }
 .client6:hover {
-    fill: blue;
+filter: brightness(0.8) sepia(1) hue-rotate(180deg);
 }
 .footer-container {
     width: 264px;
@@ -861,14 +860,8 @@ textarea {
 .container:not(:first-child):not(:last-child) {
     padding: 94px 0;
 }
-#name {border: 2px solid black;
-        border-radius: 5px;
-        padding: 8px;
-        transition: border-color 0.3s}
-       
- #name:hover
- {border-color: blue;
-}
+#name:focus  {
+        filter: brightness(0.8) sepia(1) hue-rotate(180deg);
 
 #phone{
     border: 2px  solid black;
