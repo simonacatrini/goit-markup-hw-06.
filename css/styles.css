@@ -1,25 +1,9 @@
-:root--primary-color: {#ffffff;
---accent-color-iris: #4d5ae5;
---accent-color-text: #2e2f42;
---accent-color-description: #434455;
---button-color-filters: #404bbf;
---accent-color-filters: #e7e9fc;
---accent-color-cloud: #f4f4fd;
---green-new-color: #31d0aa;
---grey-new-color: #8e8f99;
---modal-background-color: #fcfcfc;
---navy-blue-modal: rgba(46, 47, 66, 0.4);
---grey: rgba(46, 47, 66, 0.7);
---font-family: "Roboto",
-sans-serif;
---second-family: "Raleway",
-sans-serif;
---icon-background: #4d5ae5;
---icons-color: #f4f4fd;
---icons-color-hover: #404bbf;
---modal-background-btn-color: #e7e9fc;
---modal-btn-color: #2e2f42;
---transitions: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+:root {
+    --link-color: #2e2f42;
+    --social-link-color: #000000;
+    --link-color_hover: #404bbf;
+    --heading-font-family: "Roboto , Raleway", sans-serif;
+    --text-font-family: "Roboto", sans-serif;
 }
 
 * {
@@ -418,10 +402,7 @@ label {
     flex-direction: column;
     gap: 4px;
     width: 360px;
-
 }
-.input-class:focus-within .modal-icon {
-    color: var(--accent-color-iris);
 
 .input-with-icon {
     padding: 8px 16px;
@@ -830,6 +811,9 @@ textarea {
     font-size: 16px;
     color: #2e2f42;
 }
+.input.class:active,
+.input-class:hover{fill:blue;
+}
 
 .carduri {
     position: relative;
@@ -859,10 +843,4 @@ textarea {
 
 .container:not(:first-child):not(:last-child) {
     padding: 94px 0;
-}
-
-}
-.input-class:hover,
-.input-class:active{
-    color:blue;
 }
