@@ -844,3 +844,10 @@ textarea {
 .container:not(:first-child):not(:last-child) {
     padding: 94px 0;
 }
+#name {border: 2px solid blue;
+   
+        border-radius: 5px;
+       
+        padding: 8px;}
+       
+ 
