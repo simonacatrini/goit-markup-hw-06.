@@ -861,7 +861,7 @@ textarea {
 .container:not(:first-child):not(:last-child) {
     padding: 94px 0;
 }
-#name {border: 2px  black;
+#name {border: 2px solid black;
         border-radius: 5px;
         padding: 8px;
         transition: border-color 0.3s}
@@ -871,7 +871,7 @@ textarea {
 }
 
 #phone{
-    border: 2px black;
+    border: 2px  solid black;
     border-radius: 5px;
     padding: 8px;
     transition: border-color 0.3s
@@ -880,7 +880,7 @@ textarea {
 #phone:hover {
     border-color: blue;
 }#email {
-    border: 2px black;
+    border: 2px solid black;
     border-radius: 5px;
     padding: 8px;
     transition: border-color 0.3s
@@ -889,7 +889,7 @@ textarea {
 #email:hover {
     border-color: blue;
 }#comments {
-    border: 2px black;
+    border: 2px solid black;
     border-radius: 5px;
     padding: 8px;
     transition: border-color 0.3s
